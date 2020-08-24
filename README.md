@@ -2,7 +2,7 @@
 
 
 Initial setup
-1. Install Heroku Command Line Interface (CLI)/ Toolbelt 
+1. Install Heroku Command Line Interface (CLI) 
 2. Setup your MongoDB Atlas account (make sure to set the IP access setting in mongodb atlas such that everyone can acess that)
 3. Create a new user, database and collection
 
