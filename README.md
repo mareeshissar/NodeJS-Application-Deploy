@@ -21,7 +21,7 @@ Importing data into MongoDB Atlas
 mongoimport --host <your primary cluster name ending in 27017> --db <database name> --collection <collection name> --type tsv --file <filename> --authenticationDatabase admin --ssl --username <your username> --password <your password> --headerline
 ~~~
 
-Deploying application on localhost(port:8080)
+Deploying application on localhost (port:8080)
 ~~~
 node app.js
 ~~~
@@ -48,7 +48,7 @@ heroku git:remote -a <your unique heroku website name ex. guarded-plains-08242>
 git push heroku master
 ~~~
 
-Congratulations, your website should be live now🎉!!
+Congratulations, your website should be [live](https://guarded-plains-08242.herokuapp.com/) now🎉!!
 
 Reference:
 [Node.js: Deploying Applications](https://www.linkedin.com/learning/node-js-deploying-applications/welcome)
