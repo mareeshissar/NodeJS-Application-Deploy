@@ -21,6 +21,11 @@ Importing data into MongoDB Atlas
 mongoimport --host <your primary cluster name ending in 27017> --db <database name> --collection <collection name> --type tsv --file <filename> --authenticationDatabase admin --ssl --username <your username> --password <your password> --headerline
 ~~~
 
+Install all dependencies 
+~~~
+npm install
+~~~
+
 Deploying application on localhost (port:8080)
 ~~~
 node app.js
