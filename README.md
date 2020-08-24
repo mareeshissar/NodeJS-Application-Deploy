@@ -1,4 +1,4 @@
-# Deployment NodeJS application using Heroku☁️
+# Deploying NodeJS application using Heroku☁️
 
 
 Initial setup
@@ -50,8 +50,8 @@ git push heroku master
 
 Congratulations, your website should be live now🎉!!
 
-
-
+References:
+[Node.js: Deploying Applications](https://www.linkedin.com/learning/node-js-deploying-applications/welcome)
 
 
 
