@@ -50,7 +50,7 @@ git push heroku master
 
 Congratulations, your website should be live now🎉!!
 
-References:
+Reference:
 [Node.js: Deploying Applications](https://www.linkedin.com/learning/node-js-deploying-applications/welcome)
 
 
