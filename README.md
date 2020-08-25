@@ -10,6 +10,8 @@ Connecting to MongoDB Atlas cluster (via command line)
 1. Click the connect button (after selecting your cluster) and set Node.js version 2.2.12 or later
 2. Copy the connection string and fill in the required parameter values, making sure they are [URL encoded](https://docs.atlas.mongodb.com/troubleshoot-connection/#special-characters-in-connection-string-password)
 
+###NOTE: Replace <text> with appropriate value
+
 Setting up environment variables
 ~~~
 MONGO_URL=<MongoDB Atlas connection string>
@@ -18,7 +20,7 @@ NG_CMD=prod
 
 Importing data into MongoDB Atlas
 ~~~
-mongoimport --host <your primary cluster name ending in 27017> --db <database name> --collection <collection name> --type tsv --file <filename> --authenticationDatabase admin --ssl --username <your username> --password <your password> --headerline
+mongoimport --host <primary cluster name ending in 27017> --db <database name> --collection <collection name> --type tsv --file <filename> --authenticationDatabase admin --ssl --username <username> --password <password> --headerline
 ~~~
 
 Installing dependencies 
@@ -41,7 +43,7 @@ Creating framework for production
 git create --remote production
 ~~~
 
-Configuring environment variable in Heroku (GUI based option also available)
+Configuring environment variables in Heroku (GUI based option also available)
 ~~~
 heroku config:set MONGO_URL=<MongoDB Atlas connection string> --remote production
 heroku config:set NG_CMD=prod --remote production
@@ -49,7 +51,7 @@ heroku config:set NG_CMD=prod --remote production
 
 Setting remote and pushing  
 ~~~
-heroku git:remote -a <your unique heroku website name e.g. guarded-plains-08242>
+heroku git:remote -a <unique heroku website name e.g. guarded-plains-08242>
 git push heroku master
 ~~~
 
