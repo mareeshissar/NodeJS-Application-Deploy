@@ -10,7 +10,7 @@ Connecting to MongoDB Atlas cluster (via command line)
 1. Click the connect button (after selecting your cluster) and set Node.js version 2.2.12 or later
 2. Copy the connection string and fill in the required parameter values, making sure they are [URL encoded](https://docs.atlas.mongodb.com/troubleshoot-connection/#special-characters-in-connection-string-password)
 
-###NOTE: Replace <text> with appropriate value
+### NOTE: Replace <text> with appropriate value
 
 Setting up environment variables
 ~~~
