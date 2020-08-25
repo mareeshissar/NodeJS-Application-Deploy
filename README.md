@@ -41,7 +41,7 @@ Creating framework for production
 git create --remote production
 ~~~
 
-Configuring the environment variable in Heroku (GUI based option also availaible)
+Configuring the environment variable in Heroku (GUI based option also available)
 ~~~
 heroku config:set MONGO_URL=<MongoDB Atlas connection string> --remote production
 heroku config:set NG_CMD=prod --remote production
