@@ -3,7 +3,7 @@
 
 Initial setup
 1. Download and install [Heroku Command Line Interface (CLI)](https://devcenter.heroku.com/articles/heroku-cli) 
-2. Setup your MongoDB Atlas account (make sure to set the IP access setting such that anyone can access)
+2. Setup your MongoDB Atlas account (make sure to configure appropriate IP access settings)
 3. Create a new user, database and collection
 
 Connecting to MongoDB Atlas cluster (via command line)
